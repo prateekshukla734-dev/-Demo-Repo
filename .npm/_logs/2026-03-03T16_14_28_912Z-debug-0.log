@@ -1,0 +1,125 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.20.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/prateek/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm install array
+7 verbose argv "install" "array"
+8 verbose logfile logs-max:10 dir:/home/prateek/.npm/_logs/2026-03-03T16_14_28_912Z-
+9 verbose logfile /home/prateek/.npm/_logs/2026-03-03T16_14_28_912Z-debug-0.log
+10 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+11 silly logfile done cleaning log files
+12 silly idealTree buildDeps
+13 silly fetch manifest array@*
+14 silly packumentCache full:https://registry.npmjs.org/array cache-miss
+15 http fetch GET 200 https://registry.npmjs.org/array 1569ms (cache miss)
+16 silly packumentCache full:https://registry.npmjs.org/array set size:undefined disposed:false
+17 silly placeDep ROOT array@0.4.3 OK for:  want: *
+18 silly fetch manifest emitter-component@~1.1.0
+19 silly packumentCache full:https://registry.npmjs.org/emitter-component cache-miss
+20 silly fetch manifest to-function@~1.2.1
+21 silly packumentCache full:https://registry.npmjs.org/to-function cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/emitter-component 118ms (cache miss)
+23 silly packumentCache full:https://registry.npmjs.org/emitter-component set size:undefined disposed:false
+24 http fetch GET 200 https://registry.npmjs.org/to-function 883ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/to-function set size:undefined disposed:false
+26 silly placeDep ROOT emitter-component@1.1.2 OK for: array@0.4.3 want: ~1.1.0
+27 silly placeDep ROOT to-function@1.2.1 OK for: array@0.4.3 want: ~1.2.1
+28 silly fetch manifest props-component@*
+29 silly packumentCache full:https://registry.npmjs.org/props-component cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/props-component 1098ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/props-component set size:undefined disposed:false
+32 silly placeDep ROOT props-component@1.0.3 OK for: to-function@1.2.1 want: *
+33 silly reify moves {}
+34 silly audit bulk request {
+34 silly audit   accepts: [ '2.0.0' ],
+34 silly audit   'body-parser': [ '2.2.2' ],
+34 silly audit   bytes: [ '3.1.2' ],
+34 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+34 silly audit   'call-bound': [ '1.0.4' ],
+34 silly audit   'content-disposition': [ '1.0.1' ],
+34 silly audit   'content-type': [ '1.0.5' ],
+34 silly audit   cookie: [ '0.7.2' ],
+34 silly audit   'cookie-signature': [ '1.2.2' ],
+34 silly audit   debug: [ '4.4.3' ],
+34 silly audit   depd: [ '2.0.0' ],
+34 silly audit   'dunder-proto': [ '1.0.1' ],
+34 silly audit   'ee-first': [ '1.1.1' ],
+34 silly audit   encodeurl: [ '2.0.0' ],
+34 silly audit   'es-define-property': [ '1.0.1' ],
+34 silly audit   'es-errors': [ '1.3.0' ],
+34 silly audit   'es-object-atoms': [ '1.1.1' ],
+34 silly audit   'escape-html': [ '1.0.3' ],
+34 silly audit   etag: [ '1.8.1' ],
+34 silly audit   express: [ '5.2.1' ],
+34 silly audit   finalhandler: [ '2.1.1' ],
+34 silly audit   forwarded: [ '0.2.0' ],
+34 silly audit   fresh: [ '2.0.0' ],
+34 silly audit   'function-bind': [ '1.1.2' ],
+34 silly audit   'get-intrinsic': [ '1.3.0' ],
+34 silly audit   'get-proto': [ '1.0.1' ],
+34 silly audit   gopd: [ '1.2.0' ],
+34 silly audit   'has-symbols': [ '1.1.0' ],
+34 silly audit   hasown: [ '2.0.2' ],
+34 silly audit   'http-errors': [ '2.0.1' ],
+34 silly audit   'iconv-lite': [ '0.7.2' ],
+34 silly audit   inherits: [ '2.0.4' ],
+34 silly audit   'ipaddr.js': [ '1.9.1' ],
+34 silly audit   'is-promise': [ '4.0.0' ],
+34 silly audit   'math-intrinsics': [ '1.1.0' ],
+34 silly audit   'media-typer': [ '1.1.0' ],
+34 silly audit   'merge-descriptors': [ '2.0.0' ],
+34 silly audit   'mime-db': [ '1.54.0' ],
+34 silly audit   'mime-types': [ '3.0.2' ],
+34 silly audit   ms: [ '2.1.3' ],
+34 silly audit   negotiator: [ '1.0.0' ],
+34 silly audit   'object-inspect': [ '1.13.4' ],
+34 silly audit   'on-finished': [ '2.4.1' ],
+34 silly audit   once: [ '1.4.0' ],
+34 silly audit   parseurl: [ '1.3.3' ],
+34 silly audit   'path-to-regexp': [ '8.3.0' ],
+34 silly audit   'proxy-addr': [ '2.0.7' ],
+34 silly audit   qs: [ '6.15.0' ],
+34 silly audit   'range-parser': [ '1.2.1' ],
+34 silly audit   'raw-body': [ '3.0.2' ],
+34 silly audit   router: [ '2.2.0' ],
+34 silly audit   'safer-buffer': [ '2.1.2' ],
+34 silly audit   send: [ '1.2.1' ],
+34 silly audit   'serve-static': [ '2.2.1' ],
+34 silly audit   setprototypeof: [ '1.2.0' ],
+34 silly audit   'side-channel': [ '1.1.0' ],
+34 silly audit   'side-channel-list': [ '1.0.0' ],
+34 silly audit   'side-channel-map': [ '1.0.1' ],
+34 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+34 silly audit   statuses: [ '2.0.2' ],
+34 silly audit   toidentifier: [ '1.0.1' ],
+34 silly audit   'type-is': [ '2.0.1' ],
+34 silly audit   unpipe: [ '1.0.0' ],
+34 silly audit   vary: [ '1.1.2' ],
+34 silly audit   wrappy: [ '1.0.2' ],
+34 silly audit   array: [ '0.4.3' ],
+34 silly audit   'emitter-component': [ '1.1.2' ],
+34 silly audit   'to-function': [ '1.2.1' ],
+34 silly audit   'props-component': [ '1.0.3' ]
+34 silly audit }
+35 silly tarball no local data for props-component@https://registry.npmjs.org/props-component/-/props-component-1.0.3.tgz. Extracting by manifest.
+36 silly tarball no local data for emitter-component@https://registry.npmjs.org/emitter-component/-/emitter-component-1.1.2.tgz. Extracting by manifest.
+37 silly tarball no local data for array@https://registry.npmjs.org/array/-/array-0.4.3.tgz. Extracting by manifest.
+38 silly tarball no local data for to-function@https://registry.npmjs.org/to-function/-/to-function-1.2.1.tgz. Extracting by manifest.
+39 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 379ms
+40 silly audit report {}
+41 http fetch GET 200 https://registry.npmjs.org/emitter-component/-/emitter-component-1.1.2.tgz 449ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/to-function/-/to-function-1.2.1.tgz 761ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/array/-/array-0.4.3.tgz 790ms (cache miss)
+44 http fetch GET 200 https://registry.npmjs.org/props-component/-/props-component-1.0.3.tgz 1029ms (cache miss)
+45 silly ADD node_modules/props-component
+46 silly ADD node_modules/to-function
+47 silly ADD node_modules/emitter-component
+48 silly ADD node_modules/array
+49 verbose cwd /home/prateek
+50 verbose os Linux 5.10.16.3-microsoft-standard-WSL2
+51 verbose node v20.20.0
+52 verbose npm  v10.8.2
+53 verbose exit 0
+54 info ok
